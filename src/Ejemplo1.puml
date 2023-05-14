@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+:Socio: as Socio
+:Biblioteca: as Biblioteca
+
+Socio - (Reservar Libro)
+Socio -- (Prestar Libro)
+Biblioteca -- (Prestar Libro)
+Socio -- (Devovler Libro)
+Biblioteca -- (Actualizar Catálogo)
+
+
+@enduml

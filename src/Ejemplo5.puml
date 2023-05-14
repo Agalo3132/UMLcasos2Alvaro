@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+:Cliente Bancario: as Cliente
+:Cliente Corporativa: as Cliente2
+:Cliente Normal: as Cliente3
+
+Cliente <-- Cliente2
+Cliente <-- Cliente3
+
+
+@enduml

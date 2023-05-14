@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+:Empleado: as Empleado
+
+Empleado -- (Alta Cliente)
+Empleado -- (Introducir Pedido)
+Empleado -- (Obtener Estado Pedido)
+Empleado -- (Buscar Pedido)
+Empleado -- (Cancelar Pedido)
+
+(Alta Cliente) ..> (Introducir Pedido) :extiende
+(Introducir Pedido) ..> (Buscar Pedido) :incluye
+(Obtener Estado Pedido) ..> (Buscar Pedido) :incluye
+(Cancelar Pedido) ..> (Buscar Pedido) :incluye
+
+(Pago en cuenta) ..> (Introducir Pedido) :extiende
+(Pago con tarjeta) ..> (Introducir Pedido) :extiende
+
+
+
+@enduml

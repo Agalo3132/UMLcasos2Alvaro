@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+:Bibliotecario: as Bibliotecario
+
+Bibliotecario - (Baja socio)
+(Baja socio) .>  (Buscar Socio) :<<include>>
+
+@enduml
