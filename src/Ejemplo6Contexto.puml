@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+:Empleado: as Empleado
+:Administrador: as Administrador
+
+rectangle EmpresaPedidos {
+
+}
+
+
+@enduml
